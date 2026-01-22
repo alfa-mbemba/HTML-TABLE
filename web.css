@@ -1,0 +1,155 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0%;
+    margin: 0%;
+}
+li {
+    float: right;
+}
+li a {
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    padding: 10px 10px;
+    color: black;
+    font-size: larger;
+}
+li a:hover {
+    color: rgb(43, 226, 220);
+}
+.header {
+    display: flex;
+    gap: 500px;
+}
+.header h1 {
+    flex: 1px;
+    color: rgb(13, 138, 196);
+}
+.header nav {
+    flex: 1px;
+}
+.image {
+    display: flex;
+    gap: 20px;
+}
+img {
+    width: 400px;
+    height: 200px;
+}
+.A-image {
+    position: relative;
+}
+.clock {
+    position: absolute;
+    opacity: 0;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    color: aliceblue;
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.A-image:hover .clock {
+    opacity: 1;
+}
+.BB {
+    position: relative;
+}
+.flower {
+   position: absolute;
+    opacity: 0;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    color: aliceblue;
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.3);  
+}
+.BB:hover .flower {
+    opacity: 1;
+}
+.CC {
+    position: relative;
+}
+.plant {
+ position: absolute;
+    opacity: 0;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    color: aliceblue;
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.CC:hover .plant {
+    opacity: 2;
+}
+p {
+    color: rgb(143, 135, 121);
+}
+.submit {
+    display: flex;
+    gap: 80%;
+}
+button {
+    padding: 10px 30px 10px 30px;
+    color: aliceblue;
+    background-color: rgb(35, 169, 125);
+    border: 1px;
+    border-radius: 5px;
+} 
+button:hover {
+    background-color: rgb(20, 83, 43);
+}
+.AAAA {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    padding: 20px;
+}
+.AAAA:hover {
+    background-color: rgb(29, 197, 141);
+}
+footer {
+    display: flex;
+    gap: 100px;
+    padding: 100px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    background-color: rgb(249, 244, 237);
+}
+.nne {
+    text-decoration: none;
+    color: rgb(139, 139, 111);
+}
+h2 {
+    color: rgb(14, 178, 99);
+}
+.nne:hover {
+    color: rgb(25, 154, 111);
+}
+.tano {
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+}
+.tano:hover {
+    color: rgb(14, 189, 189);
+} 
+.Pictures {
+    width: 100%;
+}
+.Page {
+    display: flex;
+    gap: 70%;
+    color: rgb(34, 141, 105);
+}
+#of {
+    color: rgb(9, 180, 111);
+}
